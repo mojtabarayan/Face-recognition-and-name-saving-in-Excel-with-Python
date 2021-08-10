@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 import face_recognition
 
-imgElon = face_recognition.load_image_file('C:\\Users\\Mr.Mojtaba\\Desktop\\FaceRecog-main\\ImagesBasic/1.jpg')
+imgElon = face_recognition.load_image_file('FaceRecog-main\\ImagesBasic/1.jpg')
 imgElon = cv2.cvtColor(imgElon, cv2.COLOR_BGR2RGB)
-imgTest = face_recognition.load_image_file('C:\\Users\\Mr.Mojtaba\\Desktop\\FaceRecog-main\\ImagesBasic/2.jpg')
+imgTest = face_recognition.load_image_file('FaceRecog-main\\ImagesBasic/2.jpg')
 imgTest = cv2.cvtColor(imgTest, cv2.COLOR_BGR2RGB)
 
 faceloc = face_recognition.face_locations(imgElon)[0]
