@@ -4,7 +4,7 @@ import face_recognition
 import os
 from datetime import datetime
 
-path = 'C:\\Users\Mr.Mojtaba\\Desktop\\FaceRecog-main\\ImagesAttendance'
+path = 'FaceRecog-main\\ImagesAttendance'
 images = []
 classNames = []
 myList = os.listdir(path)
